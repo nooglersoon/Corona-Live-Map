@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Corona Virus Live Map</title>
+</head>
+
+<body>
+
+    <h1>Hello World!</h1>
+
+    {% for d in data %}
+
+    <h2>{{d.provinsi}} - {{d.kasus}} </h2>
+
+    {% endfor %}
+
+    <script src="app.js"></script>
+</body>
+
+</html>
